@@ -1,1 +1,592 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - Lucas Maglio Chiabai</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- CABEÇALHO -->
+        <header>
+
+            <div class="apresentacao">
+
+                <div class="texto-apresentacao">
+
+                    <p class="terminal">lucas@portfolio:~$</p>
+
+                    <h1 id="titulo-principal">
+                        Lucas<br>
+                        Maglio.
+                    </h1>
+
+                    <h2>Análise e Desenvolvimento de Sistemas</h2>
+
+                    <p>
+                        Estudante da Fatec Carapicuíba, construindo minha base
+                        em desenvolvimento de software e buscando minha primeira
+                        oportunidade de estágio na área de tecnologia.
+                    </p>
+
+                    <div class="botoes">
+
+                        <a class="botao-principal" href="#projeto">
+                            Ver projeto
+                        </a>
+
+                        <a
+                            class="botao-secundario"
+                            href="https://github.com/1lucasmaglio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                    <!-- BOTÕES DE INTERATIVIDADE -->
+                    <div class="botoes">
+
+                        <button class="botao-js" onclick="apresentacao()">
+                            Quem sou eu?
+                        </button>
+
+                        <button class="botao-js" onclick="alterarTitulo()">
+                            Alterar título
+                        </button>
+
+                        <button class="botao-js" onclick="alternarTema()">
+                            Alternar tema
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO DE PERFIL -->
+                <div class="foto-area">
+
+                    <img
+                        src="../imagens/imagem-lucas.jpg"
+                        alt="Foto de perfil de Lucas Maglio Chiabai"
+                    >
+
+                    <p>lucas.jpg</p>
+
+                </div>
+
+
+                <!-- PLANETA AZUL -->
+                <div class="decoracoes-espaciais" aria-hidden="true">
+
+                    <img
+                        src="../imagens/planeta-azul.png"
+                        alt=""
+                        class="decoracao decoracao-estrela-espiral"
+                    >
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- MENU -->
+        <nav class="menu">
+
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#conhecimentos">Meus conhecimentos</a>
+            <a href="#projeto">Projeto</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contato">Contato</a>
+
+        </nav>
+
+
+        <main>
+
+            <!-- SOBRE MIM -->
+            <section class="card" id="sobre">
+
+                <p class="nome-arquivo">about.md</p>
+
+                <h2>Sobre Mim</h2>
+
+                <div class="sobre">
+
+                    Eu sou uma pessoa que desde pequeno sonhava em explorar
+
+                    <p>
+                        o mundo. Por conta disso, sempre tive vontade de aprender
+                        novos idiomas. Decidi começar a aprender inglês e, depois
+                        de muita dedicação, adquiri um conhecimento sólido.
+                    </p>
+
+                    <p>
+                        Não foi um caminho fácil, mas essa experiência me ajudou
+                        a desenvolver características importantes para minha vida,
+                        como <strong>persistência, dedicação e autonomia</strong>.
+                    </p>
+
+                    <p>
+                        Sempre fui uma pessoa muito agitada e extrovertida com
+                        amigos e familiares, porém mais tímida ao conhecer pessoas
+                        novas. Apesar disso, estou disposto a enfrentar novos
+                        desafios nessa nova fase da minha vida.
+                    </p>
+
+                    <p>
+                        Um dos principais motivos que me levaram para a área de
+                        tecnologia foram as oportunidades que ela pode proporcionar,
+                        inclusive internacionalmente. Além disso, sempre tive
+                        interesse por computadores, por entender como eles funcionam
+                        e por aprender a desenvolver minhas próprias aplicações.
+                    </p>
+
+                    <p>
+                        Atualmente curso
+                        <strong>Análise e Desenvolvimento de Sistemas</strong>
+                        na Fatec Carapicuíba e estou construindo minha base em
+                        <strong>Java, SQL e desenvolvimento web</strong>.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- HABILIDADES -->
+            <section class="card" id="habilidades">
+
+                <p class="nome-arquivo">habilidades/</p>
+
+                <h2>Habilidades</h2>
+
+                <p class="descricao">
+                    Tecnologias que estou estudando e utilizando na minha formação.
+                </p>
+
+                <div class="habilidades-lista">
+
+                    <span class="hab-item">Java</span>
+                    <span class="hab-item">SQL</span>
+                    <span class="hab-item">HTML</span>
+                    <span class="hab-item">CSS</span>
+
+                </div>
+
+            </section>
+
+
+            <!-- CONHECIMENTOS -->
+            <section class="card" id="conhecimentos">
+
+                <p class="nome-arquivo">conhecimentos/</p>
+
+                <!-- SATURNO DECORATIVO -->
+                <img
+                    src="../imagens/saturno.png"
+                    alt=""
+                    class="decoracao decoracao-jupiter"
+                    aria-hidden="true"
+                >
+
+                <h2>Meus Conhecimentos</h2>
+
+                <p class="descricao">
+                    Estas são algumas das tecnologias que estou estudando
+                    atualmente durante minha formação.
+                </p>
+
+                <div class="tabela-container">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Tecnologia</th>
+                                <th>Nível</th>
+                                <th>Experiência</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Java</td>
+                                <td>Intermediário</td>
+                                <td>7 meses</td>
+                            </tr>
+
+                            <tr>
+                                <td>SQL</td>
+                                <td>Iniciante</td>
+                                <td>1 mês</td>
+                            </tr>
+
+                            <tr>
+                                <td>HTML</td>
+                                <td>Iniciante</td>
+                                <td>1 mês</td>
+                            </tr>
+
+                            <tr>
+                                <td>CSS</td>
+                                <td>Iniciante</td>
+                                <td>1 mês</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+
+            <!-- PROJETO -->
+            <section class="card" id="projeto">
+
+                <p class="nome-arquivo">repositories/</p>
+
+                <!-- GALÁXIA DECORATIVA -->
+                <img
+                    src="../imagens/galaxia.png"
+                    alt=""
+                    class="decoracao decoracao-estrelinhas decoracao-projeto"
+                    aria-hidden="true"
+                >
+
+                <h2>Projeto Atual</h2>
+
+                <article class="projeto">
+
+                    <div class="projeto-topo">
+
+                        <h3>SistemaProjetos</h3>
+
+                        <span class="publico">Public</span>
+
+                    </div>
+
+                    <p class="projeto-descricao">
+                        Projeto desenvolvido em Java que estou utilizando
+                        para estudar e entender melhor classes, objetos,
+                        coleções, regras de negócio e persistência de
+                        dados utilizando arquivos CSV.
+                    </p>
+
+                    <div class="tecnologias-projeto">
+
+                        <span>Java</span>
+                        <span>POO</span>
+                        <span>Collections</span>
+                        <span>CSV</span>
+
+                    </div>
+
+                    <div class="readme">
+
+                        <strong>README.md</strong>
+
+                        <p>
+                            Estou usando este projeto principalmente para
+                            entender como as diferentes partes de uma aplicação
+                            se conectam. Meu objetivo é aprender o processo
+                            de desenvolvimento e não apenas chegar ao
+                            resultado final.
+                        </p>
+
+                    </div>
+
+                    <a
+                        class="link-projeto"
+                        href="https://github.com/1lucasmaglio/SistemaProjetos"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Abrir repositório no GitHub ↗
+                    </a>
+
+                </article>
+
+            </section>
+
+
+            <!-- HOBBIES -->
+            <section class="card" id="hobbies">
+
+                <p class="nome-arquivo">hobbies/</p>
+
+                <h2>Galeria dos Meus Hobbies</h2>
+
+                <p class="descricao">
+                    Algumas das coisas que gosto de fazer quando não estou
+                    estudando programação.
+                </p>
+
+                <div class="galeria">
+
+                    <!-- CANTAR -->
+                    <div class="card-hobby">
+
+                        <img
+                            src="../imagens/oliviarodrigo-cantando.webp"
+                            alt="Olivia Rodrigo cantando"
+                        >
+
+                        <h3>Cantar</h3>
+
+                        <p>
+                            Gosto de cantar e ouvir música no meu tempo livre.
+                        </p>
+
+                    </div>
+
+
+                    <!-- JOGAR -->
+                    <div class="card-hobby">
+
+                        <img
+                            src="../imagens/oliviarodrigo-jogando.webp"
+                            alt="Olivia Rodrigo jogando"
+                        >
+
+                        <h3>Jogar</h3>
+
+                        <p>
+                            Gosto de jogar no computador para me divertir.
+                        </p>
+
+                    </div>
+
+
+                    <!-- LER -->
+                    <div class="card-hobby">
+
+                        <img
+                            src="../imagens/oliviarodrigo-lendo.webp"
+                            alt="Olivia Rodrigo lendo"
+                        >
+
+                        <h3>Ler</h3>
+
+                        <p>
+                            Gosto de ler livros e conhecer histórias novas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <h3 class="titulo-hobbies">Meus Hobbies</h3>
+
+                <ul class="lista-hobbies">
+
+                    <li>Cantar</li>
+                    <li>Escutar música</li>
+                    <li>Jogar</li>
+                    <li>Ler livros</li>
+                    <li>Praticar inglês</li>
+                    <li>Assistir séries e filmes</li>
+
+                </ul>
+
+            </section>
+
+
+            <!-- CONTATO -->
+            <section class="card" id="contato">
+
+                <p class="nome-arquivo">contact/</p>
+
+                <h2>Contato</h2>
+
+                <p class="descricao">
+                    Estou buscando minha primeira oportunidade de estágio
+                    em desenvolvimento de software. Caso queira conversar
+                    comigo, você pode utilizar um dos links abaixo.
+                </p>
+
+                <ul class="links-contato">
+
+                    <li>
+                        <a
+                            href="https://github.com/1lucasmaglio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Meu GitHub ↗
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/lucas-maglio-chiabai/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Meu LinkedIn ↗
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:lucasmaglionovo@gmail.com">
+                            Meu e-mail ↗
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <h3 class="titulo-contato">Entre em contato</h3>
+
+                <p class="descricao">
+                    Formulário demonstrativo. Para falar comigo, use os links acima.
+                </p>
+
+
+                <!-- FORMULÁRIO -->
+                <form class="formulario">
+
+                    <label for="nome">Nome completo:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required
+                        minlength="3"
+                    >
+
+                    <label for="email">E-mail:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+
+                    <label for="assunto">Assunto:</label>
+
+                    <input
+                        type="text"
+                        id="assunto"
+                        name="assunto"
+                        placeholder="Dúvida, sugestão, oportunidade..."
+                    >
+
+                    <label for="tipo">Tipo de contato:</label>
+
+                    <select id="tipo" name="tipo">
+
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="oportunidade">Oportunidade profissional</option>
+
+                    </select>
+
+                    <label for="mensagem">Mensagem:</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Digite sua mensagem aqui..."
+                        required
+                        minlength="10"
+                    ></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+
+                    <p id="feedback"></p>
+
+                </form>
+
+            </section>
+
+
+            <!-- CONTADOR DE CLIQUES -->
+            <section class="card">
+
+                <p class="nome-arquivo">interatividade/</p>
+
+                <h2>Contador de cliques</h2>
+
+                <div class="acoes-interativas">
+
+                    <p>
+                        Você clicou no botão
+                        <strong id="contador">0</strong>
+                        vezes.
+                    </p>
+
+                    <button class="botao-js" onclick="contarClique()">
+                        Clique aqui
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- CURIOSIDADE -->
+            <aside class="curiosidade">
+
+                <h3>📌 Curiosidade sobre mim</h3>
+
+                <p>
+                    Eu sou viciado em caldo verde
+
+                    <img
+                        class="toro-inline"
+                        src="../imagens/toro.png"
+                        alt="Toro Cat"
+                    >
+                </p>
+
+            </aside>
+
+        </main>
+
+
+        <!-- RODAPÉ -->
+        <footer>
+
+            <p>© 2026 - Lucas Maglio Chiabai</p>
+
+            <p>Análise e Desenvolvimento de Sistemas</p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JAVASCRIPT EXTERNO -->
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
+
