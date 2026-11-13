@@ -1,3 +1,3 @@
 Portfólio Pessoal — Lucas Maglio Chiabai
 
-Acesse o portfólio: 1lucasmaglio.github.io/portfolio-web
+Acesse o portfólio: [1lucasmaglio.github.io/portfolio-web](https://1lucasmaglio.github.io/portfolio-web/)
