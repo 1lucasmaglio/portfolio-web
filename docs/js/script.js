@@ -25,7 +25,7 @@ abrirPopup("Bem-vindo(a) ao meu portfólio!");
 // Mensagem de apresentação
 function apresentacao() {
   abrirPopup(
-    "Olá! Meu nome é Lucas Maglio Chiabai e sou estudante de Análise e Desenvolvimento de Sistemas na Fatec Carapicuíba."
+    "Gosto de pensar que estou aqui para experienciar. Conhecer, sentir, aprender, errar e viver. Isso já é o suficiente pra mim."
   );
 }
 
