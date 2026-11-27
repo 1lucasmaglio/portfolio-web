@@ -25,7 +25,7 @@ abrirPopup("Bem-vindo(a) ao meu portfólio!");
 // Mensagem de apresentação
 function apresentacao() {
   abrirPopup(
-    "Gosto de pensar que estou aqui para experienciar. Conhecer, sentir, aprender, errar e viver. Isso já é o suficiente pra mim."
+    "Olá! Meu nome é Lucas Maglio Chiabai e sou estudante de Análise e Desenvolvimento de Sistemas na Fatec Carapicuíba."
   );
 }
 
@@ -112,3 +112,20 @@ alien.addEventListener("click", function () {
 });
 
 
+let contador = 0;
+
+function contarClique() {
+    contador++;
+
+    document.getElementById("contador").textContent = contador;
+
+    const colecao = document.getElementById("colecao-aliens");
+
+    const alien = document.createElement("img");
+
+    alien.src = "imagens/alien.jpg";
+    alien.alt = "Alien";
+    alien.classList.add("alien-imagem");
+
+    colecao.appendChild(alien);
+}
