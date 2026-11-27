@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.ads {
+    color: #314a9b;
+}
+
 body {
   position: relative;
   isolation: isolate;
