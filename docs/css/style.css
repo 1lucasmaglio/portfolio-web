@@ -14,7 +14,8 @@ body {
   position: relative;
   isolation: isolate;
   margin: 0;
-
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 1);
+   
   background-color: #090a10;
   background-image: url("../imagens/neptune.png");
   background-size: cover;
