@@ -6,7 +6,7 @@
 
     <title>Portfólio - Lucas Maglio Chiabai</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -99,6 +99,13 @@
         <section class="card" id="sobre">
           <p class="nome-arquivo">about.md</p>
 
+          <img
+            src="imagens/polaroid.png"
+            alt="Fotografia em estilo Polaroid"
+            class="decoracao decoracao-jupiter"
+            aria-hidden="true"
+          />
+
           <h2>Sobre Mim</h2>
 
           <div class="sobre">
@@ -190,20 +197,20 @@
               <tbody>
                 <tr>
                   <td>Java</td>
-                  <td>Intermediário</td>
-                  <td>7 meses</td>
+                  <td>Iniciante-Intermediário</td>
+                  <td>10 meses</td>
                 </tr>
 
                 <tr>
                   <td>SQL</td>
                   <td>Iniciante</td>
-                  <td>1 mês</td>
+                  <td>2 mês</td>
                 </tr>
 
                 <tr>
                   <td>HTML</td>
                   <td>Iniciante</td>
-                  <td>1 mês</td>
+                  <td>4 mês</td>
                 </tr>
 
                 <tr>
@@ -435,28 +442,33 @@
           </form>
         </section>
 
-        <!-- CONTADOR DE CLIQUES -->
+        <!-- ALIEN COUNTER -->
         <section class="card">
-          <p class="nome-arquivo">interatividade/</p>
+          <p class="nome-arquivo">colecao-alienigena/</p>
 
-          <h2>Contador de cliques</h2>
+          <h2>
+            Coleção de Alienígenas
+            <img
+              src="imagens/alien.jpg"
+              alt="Alienígena"
+              class="alien-titulo"
+            />
+          </h2>
 
-          <div class="acoes-interativas">
-            <p>
-              Você clicou no botão
-              <strong id="contador">0</strong>
-              vezes.
-            </p>
+          <p>Alienígenas encontrados: <strong id="contador">0</strong></p>
 
-            <button class="botao-js" onclick="contarClique()">
-              Clique aqui
-            </button>
-          </div>
+          <button class="botao-js" onclick="contarClique()">
+            Encontrar um alienígena!
+          </button>
+
+          <div id="colecao-aliens"></div>
         </section>
-
         <!-- CURIOSIDADE -->
         <aside class="curiosidade">
-          <h3>📌 Curiosidade sobre mim</h3>
+          <h3>
+            <img src="imagens/ovni.png" alt="OVNI" class="ovni-titulo" />
+            Curiosidade sobre mim
+          </h3>
 
           <p>
             Eu nasci amarelo e sou viciado em caldo verde
