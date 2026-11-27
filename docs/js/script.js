@@ -25,7 +25,7 @@ abrirPopup("Bem-vindo(a) ao meu portfólio!");
 // Mensagem de apresentação
 function apresentacao() {
   abrirPopup(
-    "Olá! Meu nome é Lucas Maglio Chiabai e sou estudante de Análise e Desenvolvimento de Sistemas na Fatec Carapicuíba."
+    "Vamos todos morrer, então relaxa."
   );
 }
 
