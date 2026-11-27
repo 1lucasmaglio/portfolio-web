@@ -1376,3 +1376,9 @@ button {
     vertical-align: middle;
     margin-right: 8px;
 }
+
+@media (max-width: 767px) {
+  #botao-planeta {
+    display: none !important;
+  }
+}
