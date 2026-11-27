@@ -331,7 +331,7 @@ header {
 
 .menu a:hover {
   background-color: rgba(8, 15, 61, 0.35);
-  color: #a8d4ed;
+  color: #7466b6;
 }
 
 /* =================================
@@ -468,7 +468,7 @@ section > h2 {
   padding: 10px 20px;
 
   background-color: rgba(24, 24, 39, 0.06);
-  color: #604fac;
+  color:    #7466b6;
 
   border: 1px solid rgba(190, 210, 255, 0.3);
   border-radius: 20px;
@@ -577,7 +577,7 @@ tbody tr:hover {
   padding: 7px 12px;
 
   background-color: rgba(10, 12, 25, 0.06);
-  color: #c2dff2;
+  color: #7466b6;
 
   border: 1px solid rgba(190, 210, 255, 0.25);
   border-radius: 20px;
@@ -608,7 +608,7 @@ tbody tr:hover {
 }
 
 .link-projeto {
-  color: #c2dff2;
+  color: #ffffff;
 
   font-size: 13px;
   font-weight: 600;
@@ -701,7 +701,7 @@ tbody tr:hover {
 }
 
 .lista-hobbies li:hover {
-  color: #c2dff2;
+  color: #7466b6;
 }
 
 /* =================================
